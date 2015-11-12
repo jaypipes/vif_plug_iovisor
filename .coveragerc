@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = vif_plug_iovisor
+omit = tests/*,vif_plug_iovisor/openstack/*
+
+[report]
+ignore-errors = True
