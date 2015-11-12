@@ -19,7 +19,7 @@ from vif_plug_ovs import linux_net
 PLUGIN_NAME = 'iovisor'
 
 
-class IovisorPlugin(base.PluginBase):
+class IovisorPlugin(plugin.PluginBase):
     """A VIF type that plugs into a PLUMgrid virtual domain."""
 
     def __init__(self, **config):
